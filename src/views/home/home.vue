@@ -1,0 +1,82 @@
+<template>
+  <div class="home">
+    <div>home12</div>
+    <div>home13</div>
+    <div>home14</div>
+    <div>home15</div>
+    <div>home16</div>
+    <div>home17</div>
+    <div>home17</div>
+    <div>home18</div>
+    <div>home19</div>
+    <div>home10</div>
+    <div>home1-</div>
+    <div>home1-fg</div>
+    <div>home1c</div>
+    <div>home122</div>
+    <div>home1dd</div>
+    <div>home1g</div>
+    <div>home1hh</div>
+    <div>home1jj</div>
+    <div>home1-fg</div>
+    <div>home1c</div>
+    <div>home122</div>
+    <div>home1dd</div>
+    <div>home1g</div>
+    <div>home1hh</div>
+    <div>home1jj</div>
+    <div>home1jj</div>
+    <div>home1-fg</div>
+    <div>home1c</div>
+    <div>home122</div>
+    <div>home1dd</div>
+    <div>home1g</div>
+    <div>home1hh</div>
+    <div>home1jj</div>
+    <div>home12</div>
+    <div>home13</div>
+    <div>home14</div>
+    <div>home15</div>
+    <div>home16</div>
+    <div>home17</div>
+    <div>home17</div>
+    <div>home18</div>
+    <div>home19</div>
+    <div>home10</div>
+    <div>home1-</div>
+    <div>home1-fg</div>
+    <div>home1c</div>
+    <div>home122</div>
+    <div>home1dd</div>
+    <div>home1g</div>
+    <div>home1hh</div>
+    <div>home1jj</div>
+    <div>home1-fg</div>
+    <div>home1c</div>
+    <div>home122</div>
+    <div>home1dd</div>
+    <div>home1g</div>
+    <div>home1hh</div>
+    <div>home1jj</div>
+    <div>home1jj</div>
+    <div>home1-fg</div>
+    <div>home1c</div>
+    <div>home122</div>
+    <div>home1dd</div>
+    <div>home1g</div>
+    <div>home1hh</div>
+    <div>home1jj</div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "home"
+}
+</script>
+
+<style scoped>
+  .home{
+    height: 100%;
+  }
+</style>
