@@ -1,5 +1,5 @@
 <template>
-    <van-tabbar v-model="active">
+    <van-tabbar ref="tabbar" class="tabbar" v-model="active">
       <van-tabbar-item @click="tabClick" icon="home-o">首页</van-tabbar-item>
       <van-tabbar-item @click="tabClick" icon="search" dot>校友圈</van-tabbar-item>
       <van-tabbar-item @click="tabClick" icon="friends-o" badge="5">更多</van-tabbar-item>
@@ -25,6 +25,13 @@ export default {
       }
 
     }
+  },
+  created() {
+    // console.log(this.$refs.tabbar)
+  },
+  mounted() {
+    console.log(this.$refs.tabbar.$el.scrollHeight)
+    this.$emit("tabbarLoad",this.$refs.tabbar.$el.scrollHeight)
   },
 
 }

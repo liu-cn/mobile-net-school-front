@@ -13,6 +13,8 @@ import("@/assets/css/global.css")
 
 Vue.prototype.$ajax=axios
 
+Vue.prototype.$bus=new Vue()
+
 Vue.config.productionTip = false
 
 new Vue({
