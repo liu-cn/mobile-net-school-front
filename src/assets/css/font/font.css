@@ -1,0 +1,17 @@
+@font-face {
+    font-family: SourceHanSansOLD-Light-2;
+    src: url("./SourceHanSansOLD-Light-2.otf");
+}
+@font-face {
+    font-family: NotoSansCJK-Thin-2;
+    src: url("./NotoSansCJK-Thin-2.otf");
+}
+@font-face {
+    font-family: SourceCodePro-Light;
+    src: url("./SourceCodePro-Light.ttf");
+}
+
+@font-face {
+    font-family: NotoSansCJK-Light-3;
+    src: url("./NotoSansCJK-Light-3.otf");
+}

@@ -23,17 +23,15 @@ export default {
       if (this.$route.path.indexOf(this.pathList[this.active])===-1){
         this.$router.replace(this.pathList[this.active])
       }
-
     }
   },
-  created() {
-    // console.log(this.$refs.tabbar)
-  },
   mounted() {
-    console.log(this.$refs.tabbar.$el.scrollHeight)
-    this.$emit("tabbarLoad",this.$refs.tabbar.$el.scrollHeight)
-  },
-
+    for (let i =0;i<this.pathList.length;i++){
+      if (this.$route.path.indexOf(this.pathList[i])!=-1){
+        this.active=i
+      }
+    }
+  }
 }
 </script>
 

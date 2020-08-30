@@ -5,12 +5,11 @@
     </van-sticky>
     <tabbar class="tabbar"/>
 
-      <BScroll class="main">
-<!--        <div class="main">-->
+      <BScroll :ScrollType="3" :pullUpLoad="true" ref="Scroll" class="main">
           <keep-alive>
             <router-view/>
           </keep-alive>
-<!--        </div>-->
+
       </BScroll>
 
   </div>
@@ -20,6 +19,7 @@
 import tabbar from "@/components/tabbar/tabbar";
 import navbar from "@/components/navbar/navbar";
 import BScroll from "@/components/BScroll/BScroll"
+
 export default {
   name: "layout",
   components:{
@@ -28,15 +28,15 @@ export default {
     BScroll
   },
   created() {
-    this.$bus.$on("tabbarLoad",(height)=>{
-
-    })
-    this.$bus.$on("navbarLoad",(height)=>{
-
+   
+  },
+  mounted(){
+    this.$bus.$on("refHeight",()=>{
+      console.log("refHeight")
+      this.$refs.Scroll.refresh()
     })
   }
-
-}
+  }
 </script>
 
 <style>

@@ -8,6 +8,10 @@
 
 <script>
 import BScroll from '@better-scroll/core'
+import Pullup from '@better-scroll/pull-up'
+
+// 注册插件
+BScroll.use(Pullup)
 export default {
   name: "Scroll",
   data(){
@@ -32,12 +36,31 @@ export default {
     }
   },
   mounted(){
-    this.scroll=new BScroll(this.$refs.wrapper,{
+    this.Scroll=new BScroll(this.$refs.wrapper,{
       click:true,
       scrollY: true,
       probeType:this.ScrollType,
       pullUpLoad:this.pullUpLoad
     })
+    if (this.ScrollType==2 || this.ScrollType==3){
+       console.log(this.ScrollType);
+       this.Scroll.on('scroll',(position)=>{
+         this.$bus.$emit('ScrollMove',position)
+       })
+     }
+
+     if (this.pullUpLoad) {
+       //监听滚动条滚到底部，执行上拉加载更多。
+      this.Scroll.on('pullingUp',()=>{
+        console.log('上拉加载更多')
+        this.$bus.$emit('LoadMore')
+      })
+     }
+  },
+  methods:{
+    refresh(){
+        this.Scroll && this.Scroll.refresh()
+      }
   }
 
 }

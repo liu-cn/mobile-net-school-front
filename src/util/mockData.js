@@ -1,0 +1,20 @@
+export var imgList=[
+"http://qfpsuhauc.hd-bkt.clouddn.com/1.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/2.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/3.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/4.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/5.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/6.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/7.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/8.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/9.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/10.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/11.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/12.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/13.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/14.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/15.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/16.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/17.webp",
+"http://qfpsuhauc.hd-bkt.clouddn.com/18.webp"]
+

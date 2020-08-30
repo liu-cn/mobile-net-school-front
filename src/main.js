@@ -10,6 +10,7 @@ import axios from "axios"
 
 import("@/assets/css/normalize.css")
 import("@/assets/css/global.css")
+import ("@/assets/css/font/font.css")
 
 Vue.prototype.$ajax=axios
 

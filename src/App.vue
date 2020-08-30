@@ -18,7 +18,7 @@ export default {
 
 <style scoped>
 #app{
-  
+  font-family: NotoSansCJK-Thin-2;
 }
 
 </style>

@@ -1,6 +1,9 @@
 <template>
 <div>
-  friends
+  <div class="friends">
+    <van-skeleton title :row="3" />
+    <van-skeleton title avatar :row="3" />
+  </div>
 </div>
 </template>
 
