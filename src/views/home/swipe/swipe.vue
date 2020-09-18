@@ -11,9 +11,9 @@ export default {
   name: "swipe",
   data(){
     return{
-      imglist:["https://pic.downk.cc/item/5f453a6b160a154a678a3cf0.jpg","https://pic.downk.cc/item/5f453b5a160a154a678abecb.jpg",
-        "https://pic.downk.cc/item/5f453b75160a154a678acf4f.jpg","https://pic.downk.cc/item/5f453b8a160a154a678ad9b9.jpg",
-        "https://pic.downk.cc/item/5f453b9f160a154a678ae76c.jpg"]
+      imglist:["http://video.liubr.com/1.webp","http://video.liubr.com/4.webp",
+        "http://video.liubr.com/6.webp","http://video.liubr.com/7.webp",
+        "http://video.liubr.com/2.webp"]
     }
   }
 }

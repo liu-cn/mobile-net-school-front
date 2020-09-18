@@ -58,7 +58,7 @@ export default {
      }
   },
   methods:{
-    refresh(){
+    Refresh(){
         this.Scroll && this.Scroll.refresh()
       }
   }
@@ -67,5 +67,8 @@ export default {
 </script>
 
 <style scoped>
+.wrapper{
+  /* overflow: hidden; */
+}
 
 </style>

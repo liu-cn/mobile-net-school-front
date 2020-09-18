@@ -17,7 +17,6 @@
 
 <script>
 import {loginApiPath} from "@/util/global";
-// import {Button,Notify} from "vant"
 
 export default {
   name: "login",
